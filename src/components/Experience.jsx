@@ -4,32 +4,32 @@ function Experience() {
     const cardItem = [
         {
             id: 1,
-            logo: "C++",
+            logo: "https://res.cloudinary.com/dhmp8wfx9/image/upload/v1750495746/1200px-ISO_C_2B_2B_Logo.svg_s626c1.png",
             name: "C++"
         },
         {
             id: 2,
-            logo: "HTML",
+            logo: "https://res.cloudinary.com/dhmp8wfx9/image/upload/v1750495763/HTML5_logo_and_wordmark_fud2os.svg",
             name: "HTML"
         },
         {
             id: 3,
-            logo: "CSS",
+            logo: "https://res.cloudinary.com/dhmp8wfx9/image/upload/v1750495783/CSS-Logo-2011_hixciy.png",
             name: "CSS"
         },
         {
             id: 4,
-            logo: "JavaScript",
+            logo: "https://res.cloudinary.com/dhmp8wfx9/image/upload/v1750495810/1698604163003_voc3cr.png",
             name: "JavaScript"
         },
         {
             id: 5,
-            logo: "Tailwind",
+            logo: "https://res.cloudinary.com/dhmp8wfx9/image/upload/v1750496045/1200px-Tailwind_CSS_Logo.svg_y7n1p9.png",
             name: "Tailwind"
         },
         {
             id: 6,
-            logo: "BootStrap",
+            logo: "https://res.cloudinary.com/dhmp8wfx9/image/upload/v1750495875/Bootstrap_logo_r21ezm.svg",
             name: "BootStrap"
         },
     ]
@@ -42,7 +42,7 @@ function Experience() {
                     {
                         cardItem.map(({ id, logo, name }) => (
                             <div className='flex flex-col items-center justify-center border-[2px] rounded-full md:w-[200px] md:h-[200px] shadow-md p-1 cursor-pointer hover:scale-110 duration-300' key={id}>
-                                <img src="https://res.cloudinary.com/dhmp8wfx9/image/upload/v1750412034/mongodbinc_logo_gpbjtj.jpg"
+                                <img src={logo}
                                 className='w-[150px] p-1 rounded-full border-[2px]' alt="" />
                                 <div>
                                     <div className='font-bold text-xl mb-2'>{name}</div>

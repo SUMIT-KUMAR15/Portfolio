@@ -4,32 +4,32 @@ function Portfolio() {
     const cardItem = [
         {
             id: 1,
-            logo: "mongoDB",
+            logo: "https://res.cloudinary.com/dhmp8wfx9/image/upload/v1750412034/mongodbinc_logo_gpbjtj.jpg",
             name: "MongoDB"
         },
         {
             id: 2,
-            logo: "express",
+            logo: "https://res.cloudinary.com/dhmp8wfx9/image/upload/v1750412071/express-logo_r1sej0.png",
             name: "Express"
         },
         {
             id: 3,
-            logo: "reactJS",
+            logo: "https://res.cloudinary.com/dhmp8wfx9/image/upload/v1750412087/reactjs-inner_zdnl4x.svg",
             name: "ReactJS"
         },
         {
             id: 4,
-            logo: "nodeJS",
+            logo: "https://res.cloudinary.com/dhmp8wfx9/image/upload/v1750412102/nodejs-inner_hlaqc5.webp",
             name: "NodeJS"
         },
         {
             id: 5,
-            logo: "Flutter",
+            logo: "https://res.cloudinary.com/dhmp8wfx9/image/upload/v1750495475/5ef3a1148ac97166a06253c1_flutter-logo-white-inset_agg2d3.svg",
             name: "Flutter"
         },
         {
             id: 6,
-            logo: "Pyhton",
+            logo: "https://res.cloudinary.com/dhmp8wfx9/image/upload/v1750495640/Python-Symbol_rfv37a.png",
             name: "Pyhton"
         },
     ]
@@ -42,7 +42,7 @@ function Portfolio() {
                     {
                         cardItem.map(({ id, logo, name }) => (
                             <div className='md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300' key={id}>
-                                <img src="https://res.cloudinary.com/dhmp8wfx9/image/upload/v1750412034/mongodbinc_logo_gpbjtj.jpg"
+                                <img src={logo}
                                 className='w-[120px] h-[120px] p-1 rounded-full border-[2px]' alt="" />
                                 <div>
                                     <div className='font-bold text-xl mb-2'>{name}</div>
