@@ -13,7 +13,7 @@ function App() {
     <>
     <div>
 
-    <Navbar />
+    <Navbar/>
     <Home />
     <About />
     <Portfolio />
