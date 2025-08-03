@@ -46,7 +46,7 @@ function Portfolio() {
                                 className='w-[120px] h-[120px] p-1 rounded-full border-[2px]' alt="" />
                                 <div>
                                     <div className='font-bold text-xl mb-2'>{name}</div>
-                                    {/* <p className='px-2 text-gray-700'>mongodb is a powerfull tool.....</p> */}
+                                    <p className='px-2 text-gray-700'>mongodb is a powerfull tool.....</p>
                                 </div>
                                 <div className='px-6 py-4 space-x-3 justify-around'>
                                     <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded'>Learn</button>

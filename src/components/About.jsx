@@ -12,7 +12,7 @@ function About() {
             </p>
             <br />
             <h1 className='text-green-600 font-semibold text-xl'>Education & Training</h1>
-            <span className='text-justify'>[Bechlore of Computer Application], [DAV Institute of Engineering & Technology Jalandhar], [2025]
+            <span className='text-justify'>[Bechelore of Computer Application], [DAV Institute of Engineering & Technology Jalandhar], [2025]
             </span>
             <br />
             <br />
